@@ -2,3 +2,11 @@
 body {
   background-color: rgb(174, 174, 174) !important;
 }
+
+.header-card{
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 
+}
