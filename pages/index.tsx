@@ -7,6 +7,7 @@ import Images from "../components/images"
 import Todo from "../components/todo";
 import InProgress from "../components/inprogress";
 import Complete from "../components/complete";
+import Events from "../components/events";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -36,7 +37,7 @@ export default function Home() {
   return (
     <div>
 
-      {/* Deliverable 1 */}
+      {/* Deliverable 1 & 4 */}
       <Navigation onNavClick={handleNavClick}></Navigation>
       {activeSection === "home" &&
         <Welcome></Welcome>
@@ -65,6 +66,10 @@ export default function Home() {
         </div>
       )}
 
+      {/* Deliverable 3 */}
+      {activeSection === "events" && (
+        <Events></Events>
+      )}
 
     </div>
   );
