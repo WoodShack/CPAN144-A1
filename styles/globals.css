@@ -19,3 +19,7 @@ form{
   margin: 20px;
   font-weight: bold;
 }
+
+.btn{
+  font-weight: bold !important;
+}
