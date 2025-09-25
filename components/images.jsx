@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Videos = () => {
+const Images = () => {
     return (
         <div>
-            <h1>My Videos</h1>
+            <h1>My Images</h1>
         </div>
     );
 };
 
-export default Videos;
+export default Images;
