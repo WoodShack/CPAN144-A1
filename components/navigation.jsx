@@ -41,6 +41,15 @@ const Navigation = ({ onNavClick }) => {
               Images
             </Nav.Link>
 
+            <Nav.Link 
+              href="#tasks"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavClick("tasks");
+              }}>
+              Tasks
+            </Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
