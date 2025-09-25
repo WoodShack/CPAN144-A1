@@ -3,6 +3,10 @@ body {
   background-color: rgb(174, 174, 174) !important;
 }
 
+.navbar{
+  border-bottom: 5px solid rgb(113, 113, 113);
+}
+
 .header-card{
   width: 400px;
   text-align: center;
