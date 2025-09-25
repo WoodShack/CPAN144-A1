@@ -17,7 +17,6 @@ const videoData = [
 const Videos = () => {
     return (
         <div>
-
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -28,7 +27,7 @@ const Videos = () => {
                 </Card>
             </div>
 
-            <Row className="justify-content-center">
+            <Row className="justify-content-center g-0">
                 {videoData.map((video, idx) => (
                     <Col md={11} key={idx} className="mb-4 mx-3">
                         <Card>
