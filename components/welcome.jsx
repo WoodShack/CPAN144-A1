@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
+//Welcome card component
 const Welcome = () => {
     return (
         <div style={{
@@ -9,6 +10,7 @@ const Welcome = () => {
             alignItems: 'center',
             marginTop: '50px'
         }}>
+
             <Card style={{ width: '400px' }}>
                 <Card.Body>
                     <Card.Title>
@@ -22,6 +24,7 @@ const Welcome = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
+            
         </div>
     );
 };

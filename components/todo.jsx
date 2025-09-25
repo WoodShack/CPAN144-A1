@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
 
+//Task list for tasks in progress
 const Todo = ({ tasks, moveToInProgress }) => {
     return (
         <div>
@@ -15,6 +16,7 @@ const Todo = ({ tasks, moveToInProgress }) => {
                     To Do
                 </Card>
             </div>
+            
             <ListGroup>
                 {tasks.map((task, idx) => (
                     <ListGroup.Item key={idx} className="d-flex justify-content-between align-items-center">
